@@ -1,0 +1,80 @@
+#div {
+  list-style: none;
+  height: 39px;
+}
+
+#div:hover {
+  background-color: beige;
+  height: 18px;
+}
+
+#button {
+  visibility: hidden;
+  float: right;
+}
+
+#div:hover #button {
+  visibility: visible;
+  border: 1px solid black;
+  float: right;
+}
+#form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+#form button {
+  height: 33px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 2px solid black;
+  width: 5%;
+}
+
+#input {
+  width: 92%;
+  height: 30px;
+  border: none;
+  padding-left: 10px;
+}
+
+.headercontainer {
+  border: 2px solid black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.headercontainer h3 {
+  margin: 0;
+  align-self: center;
+}
+
+.maincontainer {
+  width: 50%;
+  margin: 0 auto;
+}
+.maincontainer h3 {
+  text-align: center;
+}
+.wrapper {
+  border: 2px solid black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eachcontainer {
+  border: 2px solid black;
+  margin: 0 auto;
+  height: 33px;
+  width: 46vw;
+  margin-top: 5px;
+}
+
+.eachcontainer p {
+  margin: 0;
+  padding: 7px 10px;
+}
